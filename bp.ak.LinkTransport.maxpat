@@ -109,7 +109,7 @@
 					"outlinecolor" : [ 0.376471, 0.384314, 0.4, 0.0 ],
 					"patching_rect" : [ 166.0, 524.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 34.75, 41.544144, 41.544144 ],
+					"presentation_rect" : [ 3.0, 34.75, 26.544144, 26.544144 ],
 					"style" : ""
 				}
 
@@ -1156,14 +1156,14 @@
 					"patching_rect" : [ 942.4375, 488.160706, 59.5, 22.0 ],
 					"restore" : 					{
 						"GateTime[1]" : [ 10.0 ],
-						"Tempo" : [ 110.999906 ],
+						"Tempo" : [ 80.0 ],
 						"Transport" : [ 0.0 ],
 						"live.numbox" : [ 2.0 ]
 					}
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u651013871"
+					"varname" : "u813004689"
 				}
 
 			}
