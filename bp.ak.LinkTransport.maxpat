@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 122.0, 95.0, 1166.0, 788.0 ],
+		"rect" : [ 122.0, 556.0, 833.0, 327.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -71,7 +71,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 749.0, 78.0, 24.0, 24.0 ],
-					"presentation_rect" : [ 728.0, 89.707771, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -84,7 +83,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 640.0, 83.707771, 24.0, 24.0 ],
-					"presentation_rect" : [ 627.0, 89.0, 0.0, 0.0 ],
 					"style" : ""
 				}
 
@@ -1012,16 +1010,17 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 375.0, 293.0, 235.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 18.176575, 31.75, 81.0, 45.0 ],
+					"presentation_rect" : [ 17.676575, 34.75, 82.0, 45.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "Tempo",
 							"parameter_shortname" : "Tempo",
 							"parameter_type" : 0,
+							"parameter_mmin" : 20.0,
 							"parameter_mmax" : 250.0,
 							"parameter_initial_enable" : 1,
 							"parameter_initial" : [ 80 ],
-							"parameter_unitstyle" : 1,
+							"parameter_unitstyle" : 0,
 							"parameter_units" : "bpm"
 						}
 
@@ -1085,14 +1084,14 @@
 					"patching_rect" : [ -126.5, 234.160706, 59.5, 22.0 ],
 					"restore" : 					{
 						"GateTime[1]" : [ 10.0 ],
-						"Tempo" : [ 95.787276 ],
-						"Transport" : [ 0.0 ],
-						"live.numbox" : [ 5.0 ]
+						"Tempo" : [ 104.338753 ],
+						"Transport" : [ 1.0 ],
+						"live.numbox" : [ 8.0 ]
 					}
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u819000431"
+					"varname" : "u814000724"
 				}
 
 			}
