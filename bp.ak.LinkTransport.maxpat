@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x64",
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 552.0, 78.0, 761.0, 754.0 ],
+		"rect" : [ 219.0, 92.0, 851.0, 655.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -66,7 +66,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 770.0, -48.5, 75.0, 42.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 30.327057, 43.5, 78.0, 42.0 ],
+					"presentation_rect" : [ 29.176575, 45.145832, 78.0, 42.0 ],
 					"style" : "",
 					"text_width" : 123.0,
 					"textcolor" : [ 0.74902, 0.74902, 0.74902, 1.0 ],
@@ -552,9 +552,9 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 169.75, 724.0, 46.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 24.327057, 129.207764, 32.5, 16.0 ],
+					"presentation_rect" : [ 24.327057, 129.207764, 48.0, 16.0 ],
 					"style" : "",
-					"text" : "Reset",
+					"text" : "Bar",
 					"textcolor" : [ 0.6, 0.6, 0.6, 1.0 ]
 				}
 
@@ -594,29 +594,11 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.411713, 83.707771, 48.0, 28.0 ],
+					"patching_rect" : [ 5.411713, 83.707771, 48.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 10.176575, 99.827759, 97.0, 17.0 ],
+					"presentation_rect" : [ 10.176575, 99.827759, 97.0, 15.0 ],
 					"style" : "",
 					"text" : "Pulse Width",
-					"textcolor" : [ 0.6, 0.6, 0.6, 1.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "DIN-Regular",
-					"fontsize" : 9.0,
-					"id" : "obj-14",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 8.0, 37.0, 48.0, 28.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 10.176575, 24.707771, 97.0, 17.0 ],
-					"style" : "",
-					"text" : "Ableton Live BPM",
 					"textcolor" : [ 0.6, 0.6, 0.6, 1.0 ]
 				}
 
@@ -639,7 +621,7 @@
 , 			{
 				"box" : 				{
 					"activebgcolor" : [ 0.572549, 0.615686, 0.658824, 0.0 ],
-					"activebgoncolor" : [ 0.917647, 0.94902, 0.054902, 1.0 ],
+					"activebgoncolor" : [ 0.290196, 1.0, 0.341176, 1.0 ],
 					"activetextcolor" : [ 1.0, 1.0, 1.0, 0.57 ],
 					"activetextoncolor" : [ 0.0, 0.019608, 0.078431, 1.0 ],
 					"bgcolor" : [ 0.101961, 0.101961, 0.101961, 0.78 ],
@@ -654,7 +636,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 448.0, -154.0, 62.0, 21.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.176575, 149.207764, 105.823425, 18.0 ],
+					"presentation_rect" : [ 29.176575, 149.207764, 55.911713, 18.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
@@ -695,26 +677,7 @@
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u859008746"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 0,
-					"fontname" : "DIN-Regular",
-					"fontsize" : 9.0,
-					"id" : "obj-13",
-					"linecount" : 3,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 5.411713, 137.5, 48.0, 39.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 6.176575, 0.0, 97.0, 17.0 ],
-					"style" : "",
-					"text" : "LINK TRANSPORT",
-					"textcolor" : [ 0.99518, 0.987661, 1.0, 1.0 ]
+					"varname" : "u648003670"
 				}
 
 			}
@@ -747,7 +710,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ -161.0, 13.707771, 150.0, 4.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 6.176575, 24.707771, 105.823425, 120.499992 ],
+					"presentation_rect" : [ 6.176575, 39.124722, 105.823425, 106.083038 ],
 					"proportion" : 0.39,
 					"prototypename" : "M4LDarkBack",
 					"style" : ""
@@ -775,16 +738,54 @@
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 0,
+					"fontname" : "DIN-Regular",
+					"fontsize" : 9.0,
+					"id" : "obj-2",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 50.411713, 182.5, 48.0, 33.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1.78066, 18.0, 121.219337, 15.0 ],
+					"style" : "",
+					"text" : "LINK TRANSPORT",
+					"textcolor" : [ 0.99518, 0.987661, 1.0, 1.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"angle" : 90.0,
+					"bgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"id" : "obj-9",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ -6.552673, 29.0, 150.0, 4.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ -1.21934, 0.0, 119.219337, 17.0 ],
+					"proportion" : 0.39,
+					"prototypename" : "M4LBack",
+					"rounded" : 0,
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"angle" : 90.0,
 					"bgcolor" : [ 0.196078, 0.196078, 0.196078, 1.0 ],
-					"id" : "obj-9",
+					"id" : "obj-11",
 					"maxclass" : "panel",
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 121.447327, 40.0, 150.0, 4.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, -1.0, 118.0, 19.333334 ],
+					"presentation_rect" : [ -1.21934, 15.666667, 119.219337, 19.333334 ],
 					"proportion" : 0.39,
 					"prototypename" : "M4LTopMenuBar",
 					"rounded" : 0,
@@ -796,14 +797,14 @@
 				"box" : 				{
 					"angle" : 90.0,
 					"bgcolor" : [ 0.325866, 0.32489, 0.34641, 1.0 ],
-					"id" : "obj-11",
+					"id" : "obj-14",
 					"maxclass" : "panel",
 					"mode" : 0,
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ -94.0, 13.707771, 150.0, 4.0 ],
+					"patching_rect" : [ -49.0, 58.707771, 150.0, 4.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, -1.0, 118.0, 191.0 ],
+					"presentation_rect" : [ -1.21934, 0.0, 119.219337, 191.0 ],
 					"proportion" : 0.39,
 					"prototypename" : "M4LTopMenuBar",
 					"rounded" : 0,
@@ -1116,9 +1117,9 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-76" : [ "Transport", "Transport", 0 ],
+			"obj-4" : [ "live.numbox", "live.numbox", 0 ],
 			"obj-33" : [ "GateTime[2]", "GateTime", 0 ],
-			"obj-4" : [ "live.numbox", "live.numbox", 0 ]
+			"obj-76" : [ "Transport", "Transport", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
