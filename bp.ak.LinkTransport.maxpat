@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 4,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 219.0, 92.0, 851.0, 655.0 ],
+		"rect" : [ 219.0, 92.0, 117.0, 191.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -594,9 +594,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 5.411713, 83.707771, 48.0, 24.0 ],
+					"patching_rect" : [ 5.411713, 83.707771, 48.0, 28.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 10.176575, 99.827759, 97.0, 15.0 ],
+					"presentation_rect" : [ 10.176575, 99.827759, 97.0, 17.0 ],
 					"style" : "",
 					"text" : "Pulse Width",
 					"textcolor" : [ 0.6, 0.6, 0.6, 1.0 ]
@@ -672,12 +672,12 @@
 					"restore" : 					{
 						"GateTime[1]" : [ 100.0 ],
 						"Transport" : [ 1.0 ],
-						"live.numbox" : [ 3.0 ]
+						"live.numbox" : [ 11.0 ]
 					}
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u648003670"
+					"varname" : "u404001761"
 				}
 
 			}
@@ -746,9 +746,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 50.411713, 182.5, 48.0, 33.0 ],
+					"patching_rect" : [ 50.411713, 182.5, 48.0, 39.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1.78066, 18.0, 121.219337, 15.0 ],
+					"presentation_rect" : [ 1.78066, 18.0, 121.219337, 17.0 ],
 					"style" : "",
 					"text" : "LINK TRANSPORT",
 					"textcolor" : [ 0.99518, 0.987661, 1.0, 1.0 ]
@@ -1117,9 +1117,9 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-4" : [ "live.numbox", "live.numbox", 0 ],
+			"obj-76" : [ "Transport", "Transport", 0 ],
 			"obj-33" : [ "GateTime[2]", "GateTime", 0 ],
-			"obj-76" : [ "Transport", "Transport", 0 ]
+			"obj-4" : [ "live.numbox", "live.numbox", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
